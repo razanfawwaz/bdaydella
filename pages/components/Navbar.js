@@ -16,9 +16,9 @@ export default function Navbar() {
 
   return (
     <div className="border-b-2 border-white/20">
-      <div className="max-w-7xl  mx-auto px-4 py-4 md:py-4">
+      <div className="max-w-8xl  mx-auto px-4 py-4 md:py-4">
       <div className="flex  md:flex-row justify-between items-center">
-          <a className="text-white hover:underline hover:underline-offset-4 transition duration-0 hover:duration-300 hover:ease-in-out" href="#">Della Avrillia{"'s"} Birthday</a>
+          <a className=" text-lg font-bold text-white hover:underline hover:underline-offset-4 transition duration-0 hover:duration-300 hover:ease-in-out" href="#">Della Avrillia{"'s"} Birthday</a>
         {/* Logo / Home / Text */}
           <ButtonConfetti />
         </div>

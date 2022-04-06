@@ -23,7 +23,7 @@ export default class Confetti extends Component {
 
   render() {
     return (
-      <div className={this.props.className} style={style} ref={this.setRef} />
+      <div className={this.props.className} style={style} ref={true} />
     );
   }
 }
