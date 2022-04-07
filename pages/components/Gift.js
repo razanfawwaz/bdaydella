@@ -16,7 +16,7 @@ export default function Gift()  {
                     </h1>
                 </div>
                 <div className='mt-14'>
-                    <h3 className='px-8 text-4xl font-semibold'>
+                    <h3 className='text-white px-8 text-4xl font-semibold'>
                         Gift For You
                     </h3>
                     <div className='flex flex-wrap px-4 items-center justify-around'>
@@ -147,14 +147,14 @@ export default function Gift()  {
                     </div>
                 </div>
                 <div className='mt-8'>
-                    <h3 className='px-8 text-4xl font-semibold'>
+                    <h3 className='px-8 text-4xl font-semibold text-white'>
                         Wish For You
                     </h3>
                     <div className="flex flex-wrap items-center justify-around  mb-24">
                     <div className='flex justify-center items-center max-w-lg'>
                         <div className='mt-8 w-lg rounded-lg bg-slate-700 mx-2 px-8 py-4 outline outline-2 outline-slate-500/50 hover:drop-shadow-xl'>
-                            <h2 className='text-lg font-regular'>
-                                <span className='underline decoration-red-500/90 font-semibold text-xl'>Hi Della,</span> Selamat ulang tahun yang ke-20 ya! Semoga sehat selalu, kuliahnya lancar, semoga makin sayang sama kucing-kucingnya!, semoga bisa ngonser bareng ya hahahaha!! Semoga lancar segala urusan dan rezekinya!!
+                            <h2 className='text-lg font-regular text-white'>
+                                <span className='underline decoration-red-500/90 font-semibold text-white text-xl'>Hi Della,</span> Selamat ulang tahun yang ke-20 ya! Semoga sehat selalu, kuliahnya lancar, semoga makin sayang sama kucing-kucingnya!, semoga bisa ngonser bareng ya hahahaha!! Semoga lancar segala urusan dan rezekinya!!
                             </h2>
                             <div className='py-4 border-b-2 border-slate-500'>
                             </div>
@@ -165,7 +165,7 @@ export default function Gift()  {
                     </div>
                     <div className='flex justify-center items-center max-w-lg'>
                         <div className='mt-8 w-lg rounded-lg bg-slate-700 mx-2 px-8 py-4 outline outline-2 outline-slate-500/50 hover:drop-shadow-xl'>
-                            <h2 className='text-lg font-regular'>
+                            <h2 className='text-lg text-white font-regular'>
                                 <span className='underline decoration-red-500/90 font-semibold text-xl'>Me Meoongggg!</span> Meong meong!! meoooooooong proplan meong pasir!!!! meong air!!!! meong meongggg meooong uuuuuang meong! meong grawukkk! meonk meooooonk meonk baik meooonk berkah meoooon lov u meonkkkk!
                             </h2>
                             <div className='py-4 border-b-2 border-slate-500'>

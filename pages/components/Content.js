@@ -31,14 +31,14 @@ export default function Content() {
                     </div>
                 </div>
                 <div className="flex mx-auto justify-center items-center pt-4">
-                    <h1 className='text-4xl font-semibold'>Della Avrillia Kurniawan</h1>
+                    <h1 className='text-white text-4xl font-semibold'>Della Avrillia Kurniawan</h1>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <p className='text-md pt-2'>Tangerang, 8 April 2002</p>
+                    <p className='text-white text-md pt-2'>Tangerang, 8 April 2002</p>
                 </div>
                 <div className='flex justify-center items-center pt-8'>
                     <a href="https://instagram.com/dellaavrillia" className="animate-bounce w-35 h-auto bg-blue-500 shadow-lg shadow-blue-500/50 hover:bg-blue-600 py-2 px-4 rounded-lg active:ring-2 active:ring-offset-2 active:ring-blue-600">
-                        <a>Send Me a Wishes</a>
+                        <a className='text-white'>Send Me a Wishes</a>
                     </a>
                 </div>
             </div>
