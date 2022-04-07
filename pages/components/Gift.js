@@ -40,7 +40,7 @@ export default function Gift()  {
                         </p>
                         <div className='mt-4 border-t-2 border-slate-500/20'>
                             <p className='text-center mt-4 text-gray-600 text-lg font-semibold'>
-                                Tags: 
+                                tag: 
                             </p>
                         </div>
                         <div className='mb-8 flex items-center justify-center mt-2 '>
@@ -71,7 +71,7 @@ export default function Gift()  {
                         </p>
                         <div className='mt-4 border-t-2 border-slate-500/20'>
                             <p className='mt-4 text-center text-gray-600 text-lg font-semibold'>
-                                Tags: 
+                                tag: 
                             </p>
                         </div>
                         <div className='mb-8 flex items-center justify-center mt-2'>
@@ -102,7 +102,7 @@ export default function Gift()  {
                         </p>
                         <div className='mt-4 border-t-2 border-slate-500/20'>
                             <p className='text-center mt-4 text-gray-600 text-lg font-semibold'>
-                                Tags: 
+                                tag: 
                             </p>
                         </div>
                         <div className='mb-8 mt-2 justify-center items-center flex'>
@@ -133,7 +133,7 @@ export default function Gift()  {
                         </p>
                         <div className='mt-4 border-t-2 border-slate-500/20'>
                             <p className='text-center mt-4 text-gray-600 text-lg font-semibold'>
-                                Tags: 
+                                tag: 
                             </p>
                         </div>
                         <div className='mb-8 flex items-center justify-center mt-2 '>
