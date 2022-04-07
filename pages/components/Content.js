@@ -31,7 +31,7 @@ export default function Content() {
                     </div>
                 </div>
                 <div className="flex mx-auto justify-center items-center pt-4">
-                    <h1 className='text-white text-4xl font-semibold'>Della Avrillia Kurniawan</h1>
+                    <h1 className='text-white text-4xl font-semibold text-center '>Della Avrillia Kurniawan</h1>
                 </div>
                 <div className='flex justify-center items-center'>
                     <p className='text-white text-md pt-2'>Tangerang, 8 April 2002</p>
