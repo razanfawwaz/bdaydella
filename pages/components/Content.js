@@ -7,7 +7,7 @@ import Image from 'next/image'
 export default function Content() {
     return (
         <div className='bg-slate-800 selection:bg-white selection:text-blue-400'>
-            <div className='bg-gradient-to-b from-gray-800 to-sky-600/50'id='content'>
+            <div className='bg-gradient-to-b from-gray-800 to-zinc-600/20'id='content'>
             <div className="max-w-8xl mx-auto py-12">
                 <div className="flex justify-center items-center">
                     <h1 className="text-6xl text-center font-semibold text-transparent bg-clip-text bg-gradient-to-tr from-cyan-300 via-cyan-200 to-blue-300 drop-shadow-lg">
@@ -37,7 +37,7 @@ export default function Content() {
                     <p className='text-md pt-2'>Tangerang, 8 April 2002</p>
                 </div>
                 <div className='flex justify-center items-center pt-8'>
-                    <a href="#" className="animate-bounce w-35 h-auto bg-blue-500 shadow-lg shadow-blue-500/50 hover:bg-blue-600 py-2 px-4 rounded-lg active:ring-2 active:ring-offset-2 active:ring-blue-600">
+                    <a href="https://instagram.com/dellaavrillia" className="animate-bounce w-35 h-auto bg-blue-500 shadow-lg shadow-blue-500/50 hover:bg-blue-600 py-2 px-4 rounded-lg active:ring-2 active:ring-offset-2 active:ring-blue-600">
                         <a>Send Me a Wishes</a>
                     </a>
                 </div>

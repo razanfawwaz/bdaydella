@@ -6,7 +6,7 @@ export default function Hero() {
     return(
         // eslint-disable-next-line react/jsx-no-duplicate-props
         <div className="bg-slate-800 selection:bg-white selection:text-blue-400">
-            <div className='bg-gradient-to-b from-slate-900 to-gray-800'>
+            <div className='bg-gradient-to-b from-slate-900 via-slate-900 to-gray-800'>
                 <Navbar />
                     <div className="max-w-8xl mx-auto px-2 py-20 md:py-18">
                         <div className="flex flex-row justify-center items-center overflow-hidden">

@@ -8,16 +8,19 @@ import Kado4 from '../../images/Kado4.jpg'
 export default function Gift()  {
     return(
         <div className='bg-slate-800 selection:bg-white selection:text-blue-400'>
-        <div className='bg-gradient-to-b from-sky-600/50 to-sky-200/50'>
+        <div className='bg-gradient-to-b from-zinc-600/20 via-zinc-700/20 to-slate-800'>
             <div className="max-w-7xl mx-auto py-12">
                 <div className="flex justify-center items-center">
-                    <h1 className="text-5xl text-center font-extrabold text-white drop-shadow-lg">
-                        Gifts for You!
+                    <h1 className="text-6xl text-center font-semibold text-transparent bg-clip-text bg-gradient-to-tr from-cyan-300 via-cyan-200 to-blue-300 drop-shadow-lg underline decoration-cyan-500/50">
+                        For You Page!
                     </h1>
                 </div>
-                <div className='mt-10'>
-                    <div className='flex flex-wrap py-4 px-4 items-center justify-around'>
-                    <div className='mt-8 mb-4 outline outline-2 outline-blue-500/50  max-w-sm rounded-md overflow-hidden hover:shadow-lg hover:shadow-gray-900/20 bg-white transition hover:scale-105 ease-in-out hover:duration-500'>
+                <div className='mt-14'>
+                    <h3 className='px-8 text-4xl font-semibold'>
+                        Gift For You
+                    </h3>
+                    <div className='flex flex-wrap px-4 items-center justify-around'>
+                    <div className='mt-8 mb-4 outline outline-2 outline-blue-500/50  max-w-sm rounded-md overflow-hidden hover:shadow-lg hover:shadow-gray-900/20 bg-white transition hover:scale-105 ease-in-out hover:duration-200'>
                         <div className=''>
                             <Image
                             src={Kado1}
@@ -48,7 +51,7 @@ export default function Gift()  {
                             </div>
                         </div>
                     </div>
-                    <div className='mt-8 mb-4 outline outline-2 outline-blue-500/50  max-w-sm rounded-md overflow-hidden hover:shadow-lg hover:shadow-gray-900/20 bg-white transition hover:scale-105 ease-in-out hover:duration-500'>
+                    <div className='mt-8 mb-4 outline outline-2 outline-blue-500/50  max-w-sm rounded-md overflow-hidden hover:shadow-lg hover:shadow-gray-900/20 bg-white transition hover:scale-105 ease-in-out hover:duration-200'>
                         <div className=''>
                             <Image
                             src={Kado2}
@@ -79,7 +82,7 @@ export default function Gift()  {
                             </div>
                         </div>
                     </div>
-                    <div className='mt-8 mb-4 outline outline-2 outline-blue-500/50  max-w-sm rounded-md overflow-hidden hover:shadow-lg hover:shadow-gray-900/20 bg-white transition hover:scale-105 ease-in-out hover:duration-500'>
+                    <div className='mt-8 mb-4 outline outline-2 outline-blue-500/50  max-w-sm rounded-md overflow-hidden hover:shadow-lg hover:shadow-gray-900/20 bg-white transition hover:scale-105 ease-in-out hover:duration-200'>
                         <div className=''>
                             <Image
                             src={Kado3}
@@ -110,7 +113,7 @@ export default function Gift()  {
                             </div>
                         </div>
                     </div>
-                    <div className='mt-8 mb-4 outline outline-2 outline-blue-500/50  max-w-sm rounded-md overflow-hidden hover:shadow-lg hover:shadow-gray-900/20 bg-white transition hover:scale-105 ease-in-out hover:duration-500'>
+                    <div className='mt-8 mb-4 outline outline-2 outline-blue-500/50  max-w-sm rounded-md overflow-hidden hover:shadow-lg hover:shadow-gray-900/20 bg-white transition hover:scale-105 ease-in-out hover:duration-200'>
                         <div className=''>
                             <Image
                             src={Kado4}
@@ -138,6 +141,37 @@ export default function Gift()  {
                                 <p className='text-center text-semibold'>
                                     Music
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div className='mt-8'>
+                    <h3 className='px-8 text-4xl font-semibold'>
+                        Wish For You
+                    </h3>
+                    <div className="flex flex-wrap items-center justify-around  mb-24">
+                    <div className='flex justify-center items-center max-w-lg'>
+                        <div className='mt-8 w-lg rounded-lg bg-slate-700 mx-2 px-8 py-4 outline outline-2 outline-slate-500/50 hover:drop-shadow-xl'>
+                            <h2 className='text-lg font-regular'>
+                                <span className='underline decoration-red-500/90 font-semibold text-xl'>Hi Della,</span> Selamat ulang tahun yang ke-20 ya! Semoga sehat selalu, kuliahnya lancar, semoga makin sayang sama kucing-kucingnya!, semoga bisa ngonser bareng ya hahahaha!! Semoga lancar segala urusan dan rezekinya!!
+                            </h2>
+                            <div className='py-4 border-b-2 border-slate-500'>
+                            </div>
+                            <div className='py-4'>
+                                    <p className='text-white/80 text-xl'>Razan Fawwaz</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex justify-center items-center max-w-lg'>
+                        <div className='mt-8 w-lg rounded-lg bg-slate-700 mx-2 px-8 py-4 outline outline-2 outline-slate-500/50 hover:drop-shadow-xl'>
+                            <h2 className='text-lg font-regular'>
+                                <span className='underline decoration-red-500/90 font-semibold text-xl'>Me Meoongggg!</span> Meong meong!! meoooooooong proplan meong pasir!!!! meong air!!!! meong meongggg meooong uuuuuang meong! meong grawukkk! meonk meooooonk meonk baik meooonk berkah meoooon lov u meonkkkk!
+                            </h2>
+                            <div className='py-4 border-b-2 border-slate-500'>
+                            </div>
+                            <div className='py-4'>
+                                    <p className='text-white/80 text-xl'>(Nopal) Kucing tersayang</p>
                             </div>
                         </div>
                     </div>
