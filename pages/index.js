@@ -13,7 +13,8 @@ export default function Home() {
     <ContainerBlock
     title="Della Avrillia's Birthday!" description="Selamat ulang tahun">
     </ContainerBlock>
-    <Hero />
+    <Her<script async src="https://cdn.splitbee.io/sb.js"></script>
+o />
     <Content />
     <Gift />
     <Footer />

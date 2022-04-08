@@ -37,6 +37,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
+        <script async src="https://cdn.splitbee.io/sb.js"></script>
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
